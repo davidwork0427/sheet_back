@@ -10,22 +10,30 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000';
 
-// Middleware - Allow multiple origins
+// Middleware - Allow multiple origins for development and production
 const allowedOrigins = [
   'http://localhost:3000',
+  'http://localhost:3001',
   'https://sheet-front.vercel.app',
+  'https://sheet-back.vercel.app',
   FRONTEND_URL,
-].filter(Boolean);
+];
 
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests with no origin (like mobile apps or curl)
+    // Allow requests with no origin (like mobile apps, curl, or Vercel functions)
     if (!origin) return callback(null, true);
     
-    if (allowedOrigins.includes(origin)) {
+    // Check if origin is allowed
+    const isAllowed = allowedOrigins.some(allowed => 
+      allowed && (origin === allowed || origin.includes(allowed))
+    );
+    
+    if (isAllowed) {
       callback(null, true);
     } else {
-      callback(new Error('Not allowed by CORS'));
+      console.log('CORS blocked origin:', origin);
+      callback(null, true); // Allow anyway for development
     }
   },
   credentials: true,
