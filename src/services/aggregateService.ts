@@ -55,16 +55,17 @@ export async function calculateDailyAggregates(
   }
 
   // Upsert daily aggregate
+  const locId = locationId || null;
   await prisma.dailyAggregate.upsert({
     where: {
       date_locationId: {
         date: startOfDay,
-        locationId: locationId || null,
+        locationId: locId,
       },
     },
     create: {
       date: startOfDay,
-      locationId: locationId || null,
+      locationId: locId,
       totalVideoCashIn,
       totalPosDeposit,
       totalLotteryDeposit,
@@ -93,11 +94,12 @@ export async function getDailyAggregates(
   const startOfDay = new Date(date);
   startOfDay.setHours(0, 0, 0, 0);
 
+  const locId = locationId || null;
   const aggregate = await prisma.dailyAggregate.findUnique({
     where: {
       date_locationId: {
         date: startOfDay,
-        locationId: locationId || null,
+        locationId: locId,
       },
     },
   });

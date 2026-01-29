@@ -13,16 +13,17 @@ export async function updateEmployeeTotals(
   locationId?: string
 ): Promise<void> {
   // Get or create employee total record
+  const locId = locationId || null;
   const employeeTotal = await prisma.employeeTotal.upsert({
     where: {
       employeeId_locationId: {
         employeeId,
-        locationId: locationId || null,
+        locationId: locId,
       },
     },
     create: {
       employeeId,
-      locationId: locationId || null,
+      locationId: locId,
       totalShortage: numberToDecimal(0),
       totalOverage: numberToDecimal(0),
     },
@@ -66,22 +67,16 @@ export async function updateEmployeeTotals(
  * Get employee totals
  */
 export async function getEmployeeTotals(employeeId: string, locationId?: string) {
+  const locId = locationId || null;
   const totals = await prisma.employeeTotal.findUnique({
     where: {
       employeeId_locationId: {
         employeeId,
-        locationId: locationId || null,
+        locationId: locId,
       },
     },
     include: {
-      employee: {
-        select: {
-          id: true,
-          name: true,
-          email: true,
-          employeeId: true,
-        },
-      },
+      employee: true,
     },
   });
 
@@ -96,7 +91,7 @@ export async function getEmployeeTotals(employeeId: string, locationId?: string)
 
   return {
     employeeId: totals.employeeId,
-    employee: totals.employee,
+    employee: totals.employee || undefined,
     totalShortage: decimalToNumber(totals.totalShortage),
     totalOverage: decimalToNumber(totals.totalOverage),
     lastUpdated: totals.lastUpdated,
@@ -128,9 +123,9 @@ export async function getAllEmployeeTotals(locationId?: string) {
     },
   });
 
-  return totals.map((total) => ({
+  return totals.map((total: any) => ({
     employeeId: total.employeeId,
-    employee: total.employee,
+    employee: total.employee || undefined,
     totalShortage: decimalToNumber(total.totalShortage),
     totalOverage: decimalToNumber(total.totalOverage),
     lastUpdated: total.lastUpdated,
