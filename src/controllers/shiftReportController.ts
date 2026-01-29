@@ -239,15 +239,19 @@ export async function submitShiftReport(req: AuthRequest, res: Response) {
       return res.status(400).json({ error: 'Report already submitted' });
     }
 
-    const updated = updateJsonFile('shiftReports.json', id, {
+    const updatedReport = updateJsonFile<ShiftReport>('shiftReports.json', id, {
       status: 'submitted',
       submittedAt: new Date().toISOString(),
       submittedBy: user.userId,
-    });
+    } as Partial<ShiftReport>);
+
+    if (!updatedReport) {
+      return res.status(404).json({ error: 'Failed to update report' });
+    }
 
     // Update employee totals
-    const posOverShort = updated?.posShiftData?.overShort || 0;
-    const lotteryOverShort = updated?.lotteryShiftData?.overShort || 0;
+    const posOverShort = updatedReport.posShiftData?.overShort || 0;
+    const lotteryOverShort = updatedReport.lotteryShiftData?.overShort || 0;
 
     const employeeTotals = readJsonFile<any>('employeeTotals.json');
     let employeeTotal = employeeTotals.find((t: any) => t.employeeName === report.employeeName);
@@ -300,14 +304,14 @@ export async function submitShiftReport(req: AuthRequest, res: Response) {
       aggregates.push(aggregate);
     }
 
-    if (updated?.lotteryShiftData?.videoCashIn) {
-      aggregate.totalVideoCashIn += updated.lotteryShiftData.videoCashIn;
+    if (updatedReport.lotteryShiftData?.videoCashIn) {
+      aggregate.totalVideoCashIn += updatedReport.lotteryShiftData.videoCashIn;
     }
-    if (updated?.posShiftData?.transferBankActuallyHave) {
-      aggregate.totalPosDeposit += updated.posShiftData.transferBankActuallyHave;
+    if (updatedReport.posShiftData?.transferBankActuallyHave) {
+      aggregate.totalPosDeposit += updatedReport.posShiftData.transferBankActuallyHave;
     }
-    if (updated?.lotteryShiftData?.transferBank) {
-      aggregate.totalLotteryDeposit += updated.lotteryShiftData.transferBank;
+    if (updatedReport.lotteryShiftData?.transferBank) {
+      aggregate.totalLotteryDeposit += updatedReport.lotteryShiftData.transferBank;
     }
 
     const aggIndex = aggregates.findIndex((a: any) => a.id === aggregate.id);
@@ -318,7 +322,7 @@ export async function submitShiftReport(req: AuthRequest, res: Response) {
     }
     writeJsonFile('dailyAggregates.json', aggregates);
 
-    res.json({ shiftReport: updated });
+    res.json({ shiftReport: updatedReport });
   } catch (error: any) {
     console.error('Submit shift report error:', error);
     res.status(500).json({ error: 'Failed to submit shift report' });
@@ -387,12 +391,11 @@ export async function getShiftReport(req: AuthRequest, res: Response) {
 // NEW: Get employee's own submissions
 export async function getMyReports(req: AuthRequest, res: Response) {
   try {
-    const user = req.user || { name: 'John Smith' }; // Temp for development
     let reports = readJsonFile<ShiftReport>('shiftReports.json');
 
     // Filter to only this employee's reports (when auth is enabled)
-    if (req.user) {
-      reports = reports.filter((r) => r.employeeName === user.name);
+    if (req.user && req.user.name) {
+      reports = reports.filter((r) => r.employeeName === req.user!.name);
     } else {
       // For now, return sample employee's reports
       reports = reports.filter((r) => r.employeeName === 'John Smith');

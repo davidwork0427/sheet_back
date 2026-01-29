@@ -1,3 +1,24 @@
+/**
+ * Helper function to convert Prisma Decimal to number
+ */
+export function decimalToNumber(value: any): number {
+  if (typeof value === 'number') {
+    return value;
+  }
+  if (value && typeof value === 'object' && 'd' in value) {
+    // Prisma Decimal object
+    return parseFloat(value.toString());
+  }
+  return parseFloat(value) || 0;
+}
+
+/**
+ * Helper function to convert number to Prisma Decimal format (for storing)
+ */
+export function numberToDecimal(value: number): any {
+  return value; // For JSON storage, just use number directly
+}
+
 export interface PosShiftInput {
   amStartTill: number;
   expectedDeposit: number;
