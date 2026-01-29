@@ -1,0 +1,44 @@
+[
+  {
+    "id": "emp-0001",
+    "employeeName": "Sarah Johnson",
+    "totalShortage": 382.74,
+    "totalOverage": 346.09,
+    "lastUpdated": "2025-09-06T23:45:00.000Z"
+  },
+  {
+    "id": "emp-0002",
+    "employeeName": "Jessica Lee",
+    "totalShortage": 319.1,
+    "totalOverage": 890.79,
+    "lastUpdated": "2025-10-03T23:45:00.000Z"
+  },
+  {
+    "id": "emp-0003",
+    "employeeName": "John Smith",
+    "totalShortage": 23.91,
+    "totalOverage": 386.46,
+    "lastUpdated": "2025-08-08T14:30:00.000Z"
+  },
+  {
+    "id": "emp-0004",
+    "employeeName": "Emily Wilson",
+    "totalShortage": 89.61,
+    "totalOverage": 522.78,
+    "lastUpdated": "2025-10-03T14:30:00.000Z"
+  },
+  {
+    "id": "emp-0005",
+    "employeeName": "Mike Davis",
+    "totalShortage": 157.02,
+    "totalOverage": 514.12,
+    "lastUpdated": "2025-11-10T14:30:00.000Z"
+  },
+  {
+    "id": "emp-0006",
+    "employeeName": "Chris Brown",
+    "totalShortage": 245.88,
+    "totalOverage": 972.25,
+    "lastUpdated": "2025-11-10T23:45:00.000Z"
+  }
+]

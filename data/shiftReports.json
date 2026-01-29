@@ -1,0 +1,3570 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000001",
+    "date": "2024-12-04",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2024-12-04T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2985.38,
+      "lotteryTillAdded": 184.43,
+      "totalPosSales": 2300.96,
+      "transferBankShouldHave": 2985.38,
+      "transferBankActuallyHave": 2972.88,
+      "overShort": -12.5,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 488.92,
+      "onlineSales": 128.52,
+      "extraMoneyAdded": 16.31,
+      "onlineValidate": 64.24,
+      "freeTickets": 32.03,
+      "scratchItValidate": 47.96,
+      "miscPayout": 18.31,
+      "transferBank": 803.0,
+      "moneyGivenToPos": 162.54,
+      "videoValidate": 488.92,
+      "totalLottery": 771.21,
+      "overShort": -31.79,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 10.26,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 19.27,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 35.67,
+        "drawNumber": 6
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000002",
+    "date": "2024-12-04",
+    "shiftType": "night",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2024-12-04T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3828.5,
+      "lotteryTillAdded": 265.96,
+      "totalPosSales": 3062.54,
+      "transferBankShouldHave": 3828.5,
+      "transferBankActuallyHave": 3838.94,
+      "overShort": 10.44,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 451.9,
+      "onlineSales": 156.59,
+      "extraMoneyAddedDayshift": 35.41,
+      "extraMoneyAddedNightshift": 31.53,
+      "onlineValidate": 74.17,
+      "freeTickets": 41.78,
+      "scratchItValidate": 46.14,
+      "miscPayoutDayshift": 33.62,
+      "miscPayoutNightshift": 30.6,
+      "transferBank": 961.62,
+      "moneyGivenToPos": 226.31,
+      "videoValidate": 451.9,
+      "totalLottery": 749.12,
+      "overShort": -212.5,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 114.26,
+        "depositAmount": 114.26
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 97.19,
+        "depositAmount": 97.19
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 89.38,
+        "depositAmount": 89.38
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 86.32,
+        "depositAmount": 86.32
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 114.28,
+        "depositAmount": 114.28
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 240.71,
+        "depositAmount": 240.71
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 75.52,
+        "depositAmount": 75.52
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 54.95,
+        "depositAmount": 54.95
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 961.62,
+      "depositShouldHave": 3828.5,
+      "actuallyHaveBlackBag": 3838.94,
+      "totalCashDeposit": 872.61
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000003",
+    "date": "2025-05-07",
+    "shiftType": "day",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2025-05-07T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2516.25,
+      "lotteryTillAdded": 246.24,
+      "totalPosSales": 1770.01,
+      "transferBankShouldHave": 2516.25,
+      "transferBankActuallyHave": 2508.36,
+      "overShort": -7.88,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 563.22,
+      "onlineSales": 169.75,
+      "extraMoneyAdded": 14.08,
+      "onlineValidate": 57.27,
+      "freeTickets": 28.72,
+      "scratchItValidate": 25.95,
+      "miscPayout": 13.37,
+      "transferBank": 891.03,
+      "moneyGivenToPos": 125.3,
+      "videoValidate": 563.22,
+      "totalLottery": 921.75,
+      "overShort": 30.72,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 69.1,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 80.56,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 42.78,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 39.34,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 84.72,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 34.63,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 58.64,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000004",
+    "date": "2025-05-07",
+    "shiftType": "night",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-05-07T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3304.79,
+      "lotteryTillAdded": 315.5,
+      "totalPosSales": 2489.29,
+      "transferBankShouldHave": 3304.79,
+      "transferBankActuallyHave": 3306.38,
+      "overShort": 1.59,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 661.24,
+      "onlineSales": 184.7,
+      "extraMoneyAddedDayshift": 17.11,
+      "extraMoneyAddedNightshift": 7.79,
+      "onlineValidate": 71.09,
+      "freeTickets": 32.54,
+      "scratchItValidate": 39.98,
+      "miscPayoutDayshift": 31.68,
+      "miscPayoutNightshift": 22.9,
+      "transferBank": 987.0,
+      "moneyGivenToPos": 198.19,
+      "videoValidate": 661.24,
+      "totalLottery": 972.65,
+      "overShort": -14.35,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 89.3,
+        "depositAmount": 89.3
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 87.45,
+        "depositAmount": 87.45
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 62.48,
+        "depositAmount": 62.48
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 141.77,
+        "depositAmount": 141.77
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 268.4,
+        "depositAmount": 268.4
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 385.09,
+        "depositAmount": 385.09
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 155.94,
+        "depositAmount": 155.94
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 88.29,
+        "depositAmount": 88.29
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 987.0,
+      "depositShouldHave": 3304.79,
+      "actuallyHaveBlackBag": 3306.38,
+      "totalCashDeposit": 1278.72
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000005",
+    "date": "2025-05-08",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2025-05-08T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3180.76,
+      "lotteryTillAdded": 238.37,
+      "totalPosSales": 2442.39,
+      "transferBankShouldHave": 3180.76,
+      "transferBankActuallyHave": 3179.55,
+      "overShort": -1.21,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 441.41,
+      "onlineSales": 150.19,
+      "extraMoneyAdded": 39.03,
+      "onlineValidate": 60.63,
+      "freeTickets": 20.51,
+      "scratchItValidate": 34.48,
+      "miscPayout": 27.68,
+      "transferBank": 878.56,
+      "moneyGivenToPos": 143.3,
+      "videoValidate": 441.41,
+      "totalLottery": 787.33,
+      "overShort": -91.23,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 27.18,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 7.45,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 83.2,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 60.65,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 4.02,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 58.61,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000006",
+    "date": "2025-05-08",
+    "shiftType": "night",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2025-05-08T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2852.22,
+      "lotteryTillAdded": 319.72,
+      "totalPosSales": 2032.5,
+      "transferBankShouldHave": 2852.22,
+      "transferBankActuallyHave": 2846.19,
+      "overShort": -6.03,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 492.13,
+      "onlineSales": 170.26,
+      "extraMoneyAddedDayshift": 56.88,
+      "extraMoneyAddedNightshift": 36.69,
+      "onlineValidate": 60.86,
+      "freeTickets": 26.47,
+      "scratchItValidate": 33.52,
+      "miscPayoutDayshift": 16.49,
+      "miscPayoutNightshift": 35.19,
+      "transferBank": 893.43,
+      "moneyGivenToPos": 172.53,
+      "videoValidate": 492.13,
+      "totalLottery": 883.43,
+      "overShort": -10.0,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 138.11,
+        "depositAmount": 138.11
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 70.96,
+        "depositAmount": 70.96
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 50.94,
+        "depositAmount": 50.94
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 56.2,
+        "depositAmount": 56.2
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 253.01,
+        "depositAmount": 253.01
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 104.57,
+        "depositAmount": 104.57
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 195.05,
+        "depositAmount": 195.05
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 62.97,
+        "depositAmount": 62.97
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 893.43,
+      "depositShouldHave": 2852.22,
+      "actuallyHaveBlackBag": 2846.19,
+      "totalCashDeposit": 931.81
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000007",
+    "date": "2025-05-10",
+    "shiftType": "day",
+    "employeeName": "Emily Wilson",
+    "status": "submitted",
+    "submittedAt": "2025-05-10T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2942.72,
+      "lotteryTillAdded": 214.1,
+      "totalPosSales": 2228.62,
+      "transferBankShouldHave": 2942.72,
+      "transferBankActuallyHave": 2939.74,
+      "overShort": -2.98,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 513.11,
+      "onlineSales": 132.03,
+      "extraMoneyAdded": 25.01,
+      "onlineValidate": 69.43,
+      "freeTickets": 32.49,
+      "scratchItValidate": 49.58,
+      "miscPayout": 18.3,
+      "transferBank": 849.43,
+      "moneyGivenToPos": 169.8,
+      "videoValidate": 513.11,
+      "totalLottery": 800.34,
+      "overShort": -49.09,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 9.53,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 3.2,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 0.58,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 34.49,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 41.03,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 75.41,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 46.89,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000008",
+    "date": "2025-05-10",
+    "shiftType": "night",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2025-05-10T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3484.66,
+      "lotteryTillAdded": 290.67,
+      "totalPosSales": 2693.99,
+      "transferBankShouldHave": 3484.66,
+      "transferBankActuallyHave": 3492.12,
+      "overShort": 7.46,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 461.76,
+      "onlineSales": 148.21,
+      "extraMoneyAddedDayshift": 26.58,
+      "extraMoneyAddedNightshift": 33.55,
+      "onlineValidate": 54.57,
+      "freeTickets": 35.92,
+      "scratchItValidate": 38.88,
+      "miscPayoutDayshift": 14.93,
+      "miscPayoutNightshift": 22.58,
+      "transferBank": 717.63,
+      "moneyGivenToPos": 166.89,
+      "videoValidate": 461.76,
+      "totalLottery": 803.21,
+      "overShort": 85.58,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 61.66,
+        "depositAmount": 61.66
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 144.73,
+        "depositAmount": 144.73
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 85.72,
+        "depositAmount": 85.72
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 113.01,
+        "depositAmount": 113.01
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 115.59,
+        "depositAmount": 115.59
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 258.07,
+        "depositAmount": 258.07
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 161.8,
+        "depositAmount": 161.8
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 69.91,
+        "depositAmount": 69.91
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 717.63,
+      "depositShouldHave": 3484.66,
+      "actuallyHaveBlackBag": 3492.12,
+      "totalCashDeposit": 1010.49
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000009",
+    "date": "2025-05-12",
+    "shiftType": "day",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-05-12T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2923.01,
+      "lotteryTillAdded": 299.68,
+      "totalPosSales": 2123.32,
+      "transferBankShouldHave": 2923.01,
+      "transferBankActuallyHave": 2910.54,
+      "overShort": -12.47,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 413.51,
+      "onlineSales": 143.19,
+      "extraMoneyAdded": 33.49,
+      "onlineValidate": 69.73,
+      "freeTickets": 32.36,
+      "scratchItValidate": 33.76,
+      "miscPayout": 22.08,
+      "transferBank": 777.5,
+      "moneyGivenToPos": 157.93,
+      "videoValidate": 413.51,
+      "totalLottery": 732.27,
+      "overShort": -45.23,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 91.71,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 77.01,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 83.81,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 19.51,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 52.71,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 48.36,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 32.88,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000010",
+    "date": "2025-05-12",
+    "shiftType": "night",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2025-05-12T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3560.39,
+      "lotteryTillAdded": 209.85,
+      "totalPosSales": 2850.54,
+      "transferBankShouldHave": 3560.39,
+      "transferBankActuallyHave": 3574.24,
+      "overShort": 13.84,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 537.14,
+      "onlineSales": 166.92,
+      "extraMoneyAddedDayshift": 49.17,
+      "extraMoneyAddedNightshift": 21.65,
+      "onlineValidate": 86.24,
+      "freeTickets": 35.6,
+      "scratchItValidate": 41.47,
+      "miscPayoutDayshift": 34.71,
+      "miscPayoutNightshift": 36.98,
+      "transferBank": 993.92,
+      "moneyGivenToPos": 234.99,
+      "videoValidate": 537.14,
+      "totalLottery": 839.89,
+      "overShort": -154.03,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 73.38,
+        "depositAmount": 73.38
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 131.94,
+        "depositAmount": 131.94
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 24.4,
+        "depositAmount": 24.4
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 36.33,
+        "depositAmount": 36.33
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 392.04,
+        "depositAmount": 392.04
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 211.29,
+        "depositAmount": 211.29
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 143.03,
+        "depositAmount": 143.03
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 42.39,
+        "depositAmount": 42.39
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 993.92,
+      "depositShouldHave": 3560.39,
+      "actuallyHaveBlackBag": 3574.24,
+      "totalCashDeposit": 1054.8
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000011",
+    "date": "2025-05-13",
+    "shiftType": "day",
+    "employeeName": "Emily Wilson",
+    "status": "submitted",
+    "submittedAt": "2025-05-13T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2960.64,
+      "lotteryTillAdded": 190.17,
+      "totalPosSales": 2270.47,
+      "transferBankShouldHave": 2960.64,
+      "transferBankActuallyHave": 2974.36,
+      "overShort": 13.72,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 504.55,
+      "onlineSales": 159.24,
+      "extraMoneyAdded": 35.43,
+      "onlineValidate": 62.49,
+      "freeTickets": 25.29,
+      "scratchItValidate": 49.72,
+      "miscPayout": 25.3,
+      "transferBank": 615.62,
+      "moneyGivenToPos": 162.8,
+      "videoValidate": 504.55,
+      "totalLottery": 836.42,
+      "overShort": 220.8,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 25.31,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 34.59,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 10.77,
+        "drawNumber": 5
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000012",
+    "date": "2025-05-13",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-05-13T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3013.01,
+      "lotteryTillAdded": 287.91,
+      "totalPosSales": 2225.11,
+      "transferBankShouldHave": 3013.01,
+      "transferBankActuallyHave": 3003.4,
+      "overShort": -9.62,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 562.93,
+      "onlineSales": 142.59,
+      "extraMoneyAddedDayshift": 32.5,
+      "extraMoneyAddedNightshift": 56.94,
+      "onlineValidate": 52.12,
+      "freeTickets": 26.49,
+      "scratchItValidate": 38.76,
+      "miscPayoutDayshift": 23.65,
+      "miscPayoutNightshift": 31.65,
+      "transferBank": 702.99,
+      "moneyGivenToPos": 172.67,
+      "videoValidate": 562.93,
+      "totalLottery": 922.28,
+      "overShort": 219.29,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 133.06,
+        "depositAmount": 133.06
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 79.27,
+        "depositAmount": 79.27
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 71.19,
+        "depositAmount": 71.19
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 53.68,
+        "depositAmount": 53.68
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 289.1,
+        "depositAmount": 289.1
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 149.11,
+        "depositAmount": 149.11
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 92.32,
+        "depositAmount": 92.32
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 43.33,
+        "depositAmount": 43.33
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 702.99,
+      "depositShouldHave": 3013.01,
+      "actuallyHaveBlackBag": 3003.4,
+      "totalCashDeposit": 911.06
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000013",
+    "date": "2025-05-19",
+    "shiftType": "day",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-05-19T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2893.79,
+      "lotteryTillAdded": 226.05,
+      "totalPosSales": 2167.74,
+      "transferBankShouldHave": 2893.79,
+      "transferBankActuallyHave": 2886.12,
+      "overShort": -7.67,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 513.43,
+      "onlineSales": 191.67,
+      "extraMoneyAdded": 18.89,
+      "onlineValidate": 65.95,
+      "freeTickets": 24.12,
+      "scratchItValidate": 34.55,
+      "miscPayout": 13.49,
+      "transferBank": 737.69,
+      "moneyGivenToPos": 138.11,
+      "videoValidate": 513.43,
+      "totalLottery": 885.88,
+      "overShort": 148.18,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 75.99,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 38.47,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 75.6,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 87.09,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 29.4,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 3.24,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000014",
+    "date": "2025-05-19",
+    "shiftType": "night",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2025-05-19T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3475.14,
+      "lotteryTillAdded": 207.68,
+      "totalPosSales": 2767.46,
+      "transferBankShouldHave": 3475.14,
+      "transferBankActuallyHave": 3479.62,
+      "overShort": 4.48,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 597.12,
+      "onlineSales": 206.91,
+      "extraMoneyAddedDayshift": 10.27,
+      "extraMoneyAddedNightshift": 49.48,
+      "onlineValidate": 53.2,
+      "freeTickets": 38.18,
+      "scratchItValidate": 52.84,
+      "miscPayoutDayshift": 24.12,
+      "miscPayoutNightshift": 21.51,
+      "transferBank": 954.92,
+      "moneyGivenToPos": 189.84,
+      "videoValidate": 597.12,
+      "totalLottery": 973.93,
+      "overShort": 19.01,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 21.64,
+        "depositAmount": 21.64
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 24.84,
+        "depositAmount": 24.84
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 38.21,
+        "depositAmount": 38.21
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 54.61,
+        "depositAmount": 54.61
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 253.15,
+        "depositAmount": 253.15
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 261.67,
+        "depositAmount": 261.67
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 124.07,
+        "depositAmount": 124.07
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 168.86,
+        "depositAmount": 168.86
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 954.92,
+      "depositShouldHave": 3475.14,
+      "actuallyHaveBlackBag": 3479.62,
+      "totalCashDeposit": 947.05
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000015",
+    "date": "2025-06-01",
+    "shiftType": "day",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-06-01T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2521.46,
+      "lotteryTillAdded": 184.05,
+      "totalPosSales": 1837.4,
+      "transferBankShouldHave": 2521.46,
+      "transferBankActuallyHave": 2517.85,
+      "overShort": -3.61,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 557.51,
+      "onlineSales": 125.67,
+      "extraMoneyAdded": 49.47,
+      "onlineValidate": 69.63,
+      "freeTickets": 32.33,
+      "scratchItValidate": 36.86,
+      "miscPayout": 10.87,
+      "transferBank": 728.71,
+      "moneyGivenToPos": 149.69,
+      "videoValidate": 557.51,
+      "totalLottery": 882.96,
+      "overShort": 154.25,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 62.29,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 39.13,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 54.47,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 48.76,
+        "drawNumber": 7
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000016",
+    "date": "2025-06-01",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-06-01T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3752.71,
+      "lotteryTillAdded": 250.47,
+      "totalPosSales": 3002.24,
+      "transferBankShouldHave": 3752.71,
+      "transferBankActuallyHave": 3752.74,
+      "overShort": 0.02,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 594.83,
+      "onlineSales": 162.59,
+      "extraMoneyAddedDayshift": 29.4,
+      "extraMoneyAddedNightshift": 54.75,
+      "onlineValidate": 78.43,
+      "freeTickets": 33.38,
+      "scratchItValidate": 47.59,
+      "miscPayoutDayshift": 26.88,
+      "miscPayoutNightshift": 30.02,
+      "transferBank": 994.76,
+      "moneyGivenToPos": 216.3,
+      "videoValidate": 594.83,
+      "totalLottery": 925.27,
+      "overShort": -69.49,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 126.78,
+        "depositAmount": 126.78
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 58.97,
+        "depositAmount": 58.97
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 103.61,
+        "depositAmount": 103.61
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 60.13,
+        "depositAmount": 60.13
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 347.83,
+        "depositAmount": 347.83
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 116.59,
+        "depositAmount": 116.59
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 138.49,
+        "depositAmount": 138.49
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 21.96,
+        "depositAmount": 21.96
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 994.76,
+      "depositShouldHave": 3752.71,
+      "actuallyHaveBlackBag": 3752.74,
+      "totalCashDeposit": 974.36
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000017",
+    "date": "2025-06-03",
+    "shiftType": "day",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-06-03T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2391.7,
+      "lotteryTillAdded": 258.87,
+      "totalPosSales": 1632.83,
+      "transferBankShouldHave": 2391.7,
+      "transferBankActuallyHave": 2398.15,
+      "overShort": 6.45,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 561.98,
+      "onlineSales": 176.39,
+      "extraMoneyAdded": 15.99,
+      "onlineValidate": 53.56,
+      "freeTickets": 29.02,
+      "scratchItValidate": 48.12,
+      "miscPayout": 25.52,
+      "transferBank": 713.39,
+      "moneyGivenToPos": 156.22,
+      "videoValidate": 561.98,
+      "totalLottery": 898.14,
+      "overShort": 184.75,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 74.29,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 1.71,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 88.37,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 64.82,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 65.82,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 47.09,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 25.85,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000018",
+    "date": "2025-06-03",
+    "shiftType": "night",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2025-06-03T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3772.4,
+      "lotteryTillAdded": 297.3,
+      "totalPosSales": 2975.1,
+      "transferBankShouldHave": 3772.4,
+      "transferBankActuallyHave": 3784.88,
+      "overShort": 12.47,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 619.44,
+      "onlineSales": 189.64,
+      "extraMoneyAddedDayshift": 29.0,
+      "extraMoneyAddedNightshift": 23.96,
+      "onlineValidate": 54.43,
+      "freeTickets": 37.52,
+      "scratchItValidate": 38.57,
+      "miscPayoutDayshift": 24.32,
+      "miscPayoutNightshift": 16.1,
+      "transferBank": 834.16,
+      "moneyGivenToPos": 170.94,
+      "videoValidate": 619.44,
+      "totalLottery": 991.1,
+      "overShort": 156.94,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 28.58,
+        "depositAmount": 28.58
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 83.09,
+        "depositAmount": 83.09
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 95.48,
+        "depositAmount": 95.48
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 88.43,
+        "depositAmount": 88.43
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 112.93,
+        "depositAmount": 112.93
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 359.39,
+        "depositAmount": 359.39
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 148.56,
+        "depositAmount": 148.56
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 17.65,
+        "depositAmount": 17.65
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 834.16,
+      "depositShouldHave": 3772.4,
+      "actuallyHaveBlackBag": 3784.88,
+      "totalCashDeposit": 934.11
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000019",
+    "date": "2025-06-08",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2025-06-08T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3002.8,
+      "lotteryTillAdded": 297.31,
+      "totalPosSales": 2205.49,
+      "transferBankShouldHave": 3002.8,
+      "transferBankActuallyHave": 2997.83,
+      "overShort": -4.96,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 613.02,
+      "onlineSales": 117.18,
+      "extraMoneyAdded": 3.56,
+      "onlineValidate": 51.35,
+      "freeTickets": 35.27,
+      "scratchItValidate": 32.62,
+      "miscPayout": 25.1,
+      "transferBank": 852.12,
+      "moneyGivenToPos": 144.33,
+      "videoValidate": 613.02,
+      "totalLottery": 889.43,
+      "overShort": 37.31,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 11.6,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 13.87,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 52.79,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 8.33,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 11.16,
+        "drawNumber": 5
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000020",
+    "date": "2025-06-08",
+    "shiftType": "night",
+    "employeeName": "Emily Wilson",
+    "status": "submitted",
+    "submittedAt": "2025-06-08T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3165.01,
+      "lotteryTillAdded": 308.79,
+      "totalPosSales": 2356.21,
+      "transferBankShouldHave": 3165.01,
+      "transferBankActuallyHave": 3147.51,
+      "overShort": -17.5,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 604.24,
+      "onlineSales": 154.0,
+      "extraMoneyAddedDayshift": 35.96,
+      "extraMoneyAddedNightshift": 24.37,
+      "onlineValidate": 55.45,
+      "freeTickets": 33.47,
+      "scratchItValidate": 33.99,
+      "miscPayoutDayshift": 27.23,
+      "miscPayoutNightshift": 18.01,
+      "transferBank": 961.51,
+      "moneyGivenToPos": 168.15,
+      "videoValidate": 604.24,
+      "totalLottery": 950.43,
+      "overShort": -11.07,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 46.83,
+        "depositAmount": 46.83
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 90.9,
+        "depositAmount": 90.9
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 26.02,
+        "depositAmount": 26.02
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 145.03,
+        "depositAmount": 145.03
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 291.71,
+        "depositAmount": 291.71
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 173.97,
+        "depositAmount": 173.97
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 54.34,
+        "depositAmount": 54.34
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 163.09,
+        "depositAmount": 163.09
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 961.51,
+      "depositShouldHave": 3165.01,
+      "actuallyHaveBlackBag": 3147.51,
+      "totalCashDeposit": 991.89
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000021",
+    "date": "2025-07-06",
+    "shiftType": "day",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2025-07-06T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2582.31,
+      "lotteryTillAdded": 166.3,
+      "totalPosSales": 1916.01,
+      "transferBankShouldHave": 2582.31,
+      "transferBankActuallyHave": 2594.83,
+      "overShort": 12.51,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 520.8,
+      "onlineSales": 173.24,
+      "extraMoneyAdded": 45.56,
+      "onlineValidate": 54.82,
+      "freeTickets": 30.94,
+      "scratchItValidate": 49.08,
+      "miscPayout": 10.66,
+      "transferBank": 879.48,
+      "moneyGivenToPos": 145.51,
+      "videoValidate": 520.8,
+      "totalLottery": 894.09,
+      "overShort": 14.62,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 39.74,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 18.65,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 81.39,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 61.24,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 5.49,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 24.32,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000022",
+    "date": "2025-07-06",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-07-06T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2951.2,
+      "lotteryTillAdded": 242.05,
+      "totalPosSales": 2209.15,
+      "transferBankShouldHave": 2951.2,
+      "transferBankActuallyHave": 2967.74,
+      "overShort": 16.54,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 637.84,
+      "onlineSales": 196.9,
+      "extraMoneyAddedDayshift": 33.79,
+      "extraMoneyAddedNightshift": 53.78,
+      "onlineValidate": 59.33,
+      "freeTickets": 31.73,
+      "scratchItValidate": 42.86,
+      "miscPayoutDayshift": 30.43,
+      "miscPayoutNightshift": 22.95,
+      "transferBank": 760.46,
+      "moneyGivenToPos": 187.3,
+      "videoValidate": 637.84,
+      "totalLottery": 1035.0,
+      "overShort": 274.54,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 117.43,
+        "depositAmount": 117.43
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 121.59,
+        "depositAmount": 121.59
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 111.2,
+        "depositAmount": 111.2
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 64.0,
+        "depositAmount": 64.0
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 183.67,
+        "depositAmount": 183.67
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 305.04,
+        "depositAmount": 305.04
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 174.34,
+        "depositAmount": 174.34
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 177.74,
+        "depositAmount": 177.74
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 760.46,
+      "depositShouldHave": 2951.2,
+      "actuallyHaveBlackBag": 2967.74,
+      "totalCashDeposit": 1255.01
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000023",
+    "date": "2025-07-12",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2025-07-12T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2481.85,
+      "lotteryTillAdded": 228.0,
+      "totalPosSales": 1753.86,
+      "transferBankShouldHave": 2481.85,
+      "transferBankActuallyHave": 2487.54,
+      "overShort": 5.68,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 416.3,
+      "onlineSales": 136.71,
+      "extraMoneyAdded": 41.49,
+      "onlineValidate": 52.17,
+      "freeTickets": 38.59,
+      "scratchItValidate": 43.32,
+      "miscPayout": 24.01,
+      "transferBank": 683.01,
+      "moneyGivenToPos": 158.09,
+      "videoValidate": 416.3,
+      "totalLottery": 736.41,
+      "overShort": 53.4,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 60.0,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 8.32,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 85.84,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 90.53,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 31.24,
+        "drawNumber": 7
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000024",
+    "date": "2025-07-12",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-07-12T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3798.5,
+      "lotteryTillAdded": 308.61,
+      "totalPosSales": 2989.88,
+      "transferBankShouldHave": 3798.5,
+      "transferBankActuallyHave": 3814.01,
+      "overShort": 15.52,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 559.4,
+      "onlineSales": 153.12,
+      "extraMoneyAddedDayshift": 6.96,
+      "extraMoneyAddedNightshift": 13.33,
+      "onlineValidate": 66.81,
+      "freeTickets": 43.06,
+      "scratchItValidate": 37.86,
+      "miscPayoutDayshift": 19.63,
+      "miscPayoutNightshift": 35.65,
+      "transferBank": 848.55,
+      "moneyGivenToPos": 203.01,
+      "videoValidate": 559.4,
+      "totalLottery": 829.81,
+      "overShort": -18.74,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 45.56,
+        "depositAmount": 45.56
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 86.46,
+        "depositAmount": 86.46
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 70.83,
+        "depositAmount": 70.83
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 53.44,
+        "depositAmount": 53.44
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 143.32,
+        "depositAmount": 143.32
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 363.65,
+        "depositAmount": 363.65
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 51.83,
+        "depositAmount": 51.83
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 47.27,
+        "depositAmount": 47.27
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 848.55,
+      "depositShouldHave": 3798.5,
+      "actuallyHaveBlackBag": 3814.01,
+      "totalCashDeposit": 862.36
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000025",
+    "date": "2025-07-18",
+    "shiftType": "day",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-07-18T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3283.6,
+      "lotteryTillAdded": 296.84,
+      "totalPosSales": 2486.76,
+      "transferBankShouldHave": 3283.6,
+      "transferBankActuallyHave": 3281.77,
+      "overShort": -1.83,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 527.86,
+      "onlineSales": 171.12,
+      "extraMoneyAdded": 11.0,
+      "onlineValidate": 48.33,
+      "freeTickets": 37.92,
+      "scratchItValidate": 38.59,
+      "miscPayout": 10.01,
+      "transferBank": 666.05,
+      "moneyGivenToPos": 134.85,
+      "videoValidate": 527.86,
+      "totalLottery": 875.13,
+      "overShort": 209.08,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 81.05,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 71.48,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 88.53,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 23.54,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 77.79,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 52.41,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000026",
+    "date": "2025-07-18",
+    "shiftType": "night",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2025-07-18T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3331.1,
+      "lotteryTillAdded": 243.76,
+      "totalPosSales": 2587.33,
+      "transferBankShouldHave": 3331.1,
+      "transferBankActuallyHave": 3334.66,
+      "overShort": 3.56,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 657.3,
+      "onlineSales": 120.12,
+      "extraMoneyAddedDayshift": 9.52,
+      "extraMoneyAddedNightshift": 53.97,
+      "onlineValidate": 70.07,
+      "freeTickets": 36.82,
+      "scratchItValidate": 50.59,
+      "miscPayoutDayshift": 11.57,
+      "miscPayoutNightshift": 24.61,
+      "transferBank": 832.7,
+      "moneyGivenToPos": 193.66,
+      "videoValidate": 657.3,
+      "totalLottery": 947.24,
+      "overShort": 114.54,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 147.69,
+        "depositAmount": 147.69
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 26.66,
+        "depositAmount": 26.66
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 87.1,
+        "depositAmount": 87.1
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 84.72,
+        "depositAmount": 84.72
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 331.94,
+        "depositAmount": 331.94
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 161.85,
+        "depositAmount": 161.85
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 54.86,
+        "depositAmount": 54.86
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 169.96,
+        "depositAmount": 169.96
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 832.7,
+      "depositShouldHave": 3331.1,
+      "actuallyHaveBlackBag": 3334.66,
+      "totalCashDeposit": 1064.78
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000027",
+    "date": "2025-08-01",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2025-08-01T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2606.05,
+      "lotteryTillAdded": 173.04,
+      "totalPosSales": 1933.01,
+      "transferBankShouldHave": 2606.05,
+      "transferBankActuallyHave": 2616.15,
+      "overShort": 10.1,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 643.62,
+      "onlineSales": 121.18,
+      "extraMoneyAdded": 40.93,
+      "onlineValidate": 46.64,
+      "freeTickets": 23.96,
+      "scratchItValidate": 39.86,
+      "miscPayout": 11.61,
+      "transferBank": 877.79,
+      "moneyGivenToPos": 122.07,
+      "videoValidate": 643.62,
+      "totalLottery": 983.66,
+      "overShort": 105.86,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 3.64,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 69.32,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 36.3,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 93.7,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 4.71,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 93.87,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 51.87,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000028",
+    "date": "2025-08-01",
+    "shiftType": "night",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2025-08-01T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3498.81,
+      "lotteryTillAdded": 180.36,
+      "totalPosSales": 2818.44,
+      "transferBankShouldHave": 3498.81,
+      "transferBankActuallyHave": 3517.14,
+      "overShort": 18.34,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 694.19,
+      "onlineSales": 186.16,
+      "extraMoneyAddedDayshift": 17.02,
+      "extraMoneyAddedNightshift": 47.24,
+      "onlineValidate": 64.7,
+      "freeTickets": 40.28,
+      "scratchItValidate": 49.31,
+      "miscPayoutDayshift": 12.04,
+      "miscPayoutNightshift": 25.66,
+      "transferBank": 728.11,
+      "moneyGivenToPos": 192.0,
+      "videoValidate": 694.19,
+      "totalLottery": 1052.62,
+      "overShort": 324.51,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 113.02,
+        "depositAmount": 113.02
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 71.65,
+        "depositAmount": 71.65
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 116.57,
+        "depositAmount": 116.57
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 20.54,
+        "depositAmount": 20.54
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 268.37,
+        "depositAmount": 268.37
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 250.32,
+        "depositAmount": 250.32
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 34.25,
+        "depositAmount": 34.25
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 142.49,
+        "depositAmount": 142.49
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 728.11,
+      "depositShouldHave": 3498.81,
+      "actuallyHaveBlackBag": 3517.14,
+      "totalCashDeposit": 1017.21
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000029",
+    "date": "2025-08-08",
+    "shiftType": "day",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2025-08-08T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2300.14,
+      "lotteryTillAdded": 231.33,
+      "totalPosSales": 1568.81,
+      "transferBankShouldHave": 2300.14,
+      "transferBankActuallyHave": 2313.38,
+      "overShort": 13.24,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 520.55,
+      "onlineSales": 126.32,
+      "extraMoneyAdded": 15.2,
+      "onlineValidate": 42.2,
+      "freeTickets": 28.44,
+      "scratchItValidate": 37.55,
+      "miscPayout": 10.02,
+      "transferBank": 787.31,
+      "moneyGivenToPos": 118.21,
+      "videoValidate": 520.55,
+      "totalLottery": 843.86,
+      "overShort": 56.55,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 84.73,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 63.45,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 59.71,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 92.24,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 24.52,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 10.05,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000030",
+    "date": "2025-08-08",
+    "shiftType": "night",
+    "employeeName": "Emily Wilson",
+    "status": "submitted",
+    "submittedAt": "2025-08-08T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2883.52,
+      "lotteryTillAdded": 301.88,
+      "totalPosSales": 2081.64,
+      "transferBankShouldHave": 2883.52,
+      "transferBankActuallyHave": 2874.55,
+      "overShort": -8.97,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 579.11,
+      "onlineSales": 210.09,
+      "extraMoneyAddedDayshift": 18.02,
+      "extraMoneyAddedNightshift": 44.69,
+      "onlineValidate": 81.92,
+      "freeTickets": 36.61,
+      "scratchItValidate": 39.06,
+      "miscPayoutDayshift": 27.9,
+      "miscPayoutNightshift": 39.08,
+      "transferBank": 860.61,
+      "moneyGivenToPos": 224.57,
+      "videoValidate": 579.11,
+      "totalLottery": 927.34,
+      "overShort": 66.72,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 108.27,
+        "depositAmount": 108.27
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 112.43,
+        "depositAmount": 112.43
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 63.99,
+        "depositAmount": 63.99
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 74.41,
+        "depositAmount": 74.41
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 246.28,
+        "depositAmount": 246.28
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 243.92,
+        "depositAmount": 243.92
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 173.38,
+        "depositAmount": 173.38
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 9.91,
+        "depositAmount": 9.91
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 860.61,
+      "depositShouldHave": 2883.52,
+      "actuallyHaveBlackBag": 2874.55,
+      "totalCashDeposit": 1032.59
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000031",
+    "date": "2025-09-06",
+    "shiftType": "day",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-09-06T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3492.2,
+      "lotteryTillAdded": 222.78,
+      "totalPosSales": 2769.42,
+      "transferBankShouldHave": 3492.2,
+      "transferBankActuallyHave": 3502.07,
+      "overShort": 9.87,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 567.09,
+      "onlineSales": 178.42,
+      "extraMoneyAdded": 35.58,
+      "onlineValidate": 71.28,
+      "freeTickets": 28.99,
+      "scratchItValidate": 26.04,
+      "miscPayout": 11.38,
+      "transferBank": 603.21,
+      "moneyGivenToPos": 137.69,
+      "videoValidate": 567.09,
+      "totalLottery": 943.41,
+      "overShort": 340.2,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 28.09,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 34.82,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 36.32,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 27.27,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 64.33,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 72.55,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000032",
+    "date": "2025-09-06",
+    "shiftType": "night",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2025-09-06T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3274.79,
+      "lotteryTillAdded": 213.22,
+      "totalPosSales": 2561.57,
+      "transferBankShouldHave": 3274.79,
+      "transferBankActuallyHave": 3290.43,
+      "overShort": 15.63,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 467.85,
+      "onlineSales": 139.07,
+      "extraMoneyAddedDayshift": 31.42,
+      "extraMoneyAddedNightshift": 1.77,
+      "onlineValidate": 52.76,
+      "freeTickets": 30.95,
+      "scratchItValidate": 51.76,
+      "miscPayoutDayshift": 27.65,
+      "miscPayoutNightshift": 37.86,
+      "transferBank": 980.18,
+      "moneyGivenToPos": 200.97,
+      "videoValidate": 467.85,
+      "totalLottery": 739.14,
+      "overShort": -241.04,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 74.33,
+        "depositAmount": 74.33
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 139.84,
+        "depositAmount": 139.84
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 83.09,
+        "depositAmount": 83.09
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 23.43,
+        "depositAmount": 23.43
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 224.53,
+        "depositAmount": 224.53
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 123.43,
+        "depositAmount": 123.43
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 19.82,
+        "depositAmount": 19.82
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 76.17,
+        "depositAmount": 76.17
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 980.18,
+      "depositShouldHave": 3274.79,
+      "actuallyHaveBlackBag": 3290.43,
+      "totalCashDeposit": 764.64
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000033",
+    "date": "2025-09-13",
+    "shiftType": "day",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-09-13T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2824.66,
+      "lotteryTillAdded": 262.37,
+      "totalPosSales": 2062.29,
+      "transferBankShouldHave": 2824.66,
+      "transferBankActuallyHave": 2810.56,
+      "overShort": -14.11,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 441.49,
+      "onlineSales": 104.76,
+      "extraMoneyAdded": 13.31,
+      "onlineValidate": 71.96,
+      "freeTickets": 38.48,
+      "scratchItValidate": 25.63,
+      "miscPayout": 16.02,
+      "transferBank": 635.66,
+      "moneyGivenToPos": 152.09,
+      "videoValidate": 441.49,
+      "totalLottery": 707.48,
+      "overShort": 71.82,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 14.33,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 51.26,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 93.25,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 26.41,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 19.82,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 52.41,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 70.7,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000034",
+    "date": "2025-09-13",
+    "shiftType": "night",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-09-13T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3665.12,
+      "lotteryTillAdded": 290.01,
+      "totalPosSales": 2875.11,
+      "transferBankShouldHave": 3665.12,
+      "transferBankActuallyHave": 3666.48,
+      "overShort": 1.36,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 617.54,
+      "onlineSales": 197.85,
+      "extraMoneyAddedDayshift": 38.74,
+      "extraMoneyAddedNightshift": 18.21,
+      "onlineValidate": 67.14,
+      "freeTickets": 44.03,
+      "scratchItValidate": 47.55,
+      "miscPayoutDayshift": 28.62,
+      "miscPayoutNightshift": 20.74,
+      "transferBank": 993.59,
+      "moneyGivenToPos": 208.08,
+      "videoValidate": 617.54,
+      "totalLottery": 964.26,
+      "overShort": -29.33,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 146.08,
+        "depositAmount": 146.08
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 64.43,
+        "depositAmount": 64.43
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 73.62,
+        "depositAmount": 73.62
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 90.08,
+        "depositAmount": 90.08
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 247.38,
+        "depositAmount": 247.38
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 228.14,
+        "depositAmount": 228.14
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 128.37,
+        "depositAmount": 128.37
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 43.58,
+        "depositAmount": 43.58
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 993.59,
+      "depositShouldHave": 3665.12,
+      "actuallyHaveBlackBag": 3666.48,
+      "totalCashDeposit": 1021.68
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000035",
+    "date": "2025-10-03",
+    "shiftType": "day",
+    "employeeName": "Emily Wilson",
+    "status": "submitted",
+    "submittedAt": "2025-10-03T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2527.35,
+      "lotteryTillAdded": 178.43,
+      "totalPosSales": 1848.92,
+      "transferBankShouldHave": 2527.35,
+      "transferBankActuallyHave": 2530.22,
+      "overShort": 2.88,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 587.63,
+      "onlineSales": 112.43,
+      "extraMoneyAdded": 6.05,
+      "onlineValidate": 59.33,
+      "freeTickets": 30.51,
+      "scratchItValidate": 41.23,
+      "miscPayout": 18.52,
+      "transferBank": 637.86,
+      "moneyGivenToPos": 149.59,
+      "videoValidate": 587.63,
+      "totalLottery": 856.52,
+      "overShort": 218.66,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 11.1,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 94.3,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 35.62,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 78.8,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 46.49,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 81.35,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 73.94,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000036",
+    "date": "2025-10-03",
+    "shiftType": "night",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2025-10-03T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2913.24,
+      "lotteryTillAdded": 238.96,
+      "totalPosSales": 2174.28,
+      "transferBankShouldHave": 2913.24,
+      "transferBankActuallyHave": 2911.62,
+      "overShort": -1.61,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 537.74,
+      "onlineSales": 175.03,
+      "extraMoneyAddedDayshift": 13.91,
+      "extraMoneyAddedNightshift": 58.11,
+      "onlineValidate": 74.47,
+      "freeTickets": 29.05,
+      "scratchItValidate": 34.23,
+      "miscPayoutDayshift": 13.42,
+      "miscPayoutNightshift": 27.54,
+      "transferBank": 724.21,
+      "moneyGivenToPos": 178.71,
+      "videoValidate": 537.74,
+      "totalLottery": 906.08,
+      "overShort": 181.87,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 55.11,
+        "depositAmount": 55.11
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 78.35,
+        "depositAmount": 78.35
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 28.05,
+        "depositAmount": 28.05
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 131.75,
+        "depositAmount": 131.75
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 303.33,
+        "depositAmount": 303.33
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 210.41,
+        "depositAmount": 210.41
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 126.74,
+        "depositAmount": 126.74
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 91.16,
+        "depositAmount": 91.16
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 724.21,
+      "depositShouldHave": 2913.24,
+      "actuallyHaveBlackBag": 2911.62,
+      "totalCashDeposit": 1024.9
+    }
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000037",
+    "date": "2025-11-10",
+    "shiftType": "day",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2025-11-10T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2459.41,
+      "lotteryTillAdded": 227.1,
+      "totalPosSales": 1732.31,
+      "transferBankShouldHave": 2459.41,
+      "transferBankActuallyHave": 2456.42,
+      "overShort": -2.98,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 444.11,
+      "onlineSales": 132.78,
+      "extraMoneyAdded": 12.15,
+      "onlineValidate": 43.91,
+      "freeTickets": 34.45,
+      "scratchItValidate": 41.17,
+      "miscPayout": 10.89,
+      "transferBank": 628.32,
+      "moneyGivenToPos": 130.42,
+      "videoValidate": 444.11,
+      "totalLottery": 758.63,
+      "overShort": 130.31,
+      "comments": "Lottery balanced"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 73.68,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 66.14,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 51.01,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 6.08,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 74.91,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 85.31,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 84.29,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-000000000038",
+    "date": "2025-11-10",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2025-11-10T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3320.05,
+      "lotteryTillAdded": 276.23,
+      "totalPosSales": 2543.82,
+      "transferBankShouldHave": 3320.05,
+      "transferBankActuallyHave": 3337.3,
+      "overShort": 17.25,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 450.92,
+      "onlineSales": 146.97,
+      "extraMoneyAddedDayshift": 13.87,
+      "extraMoneyAddedNightshift": 34.33,
+      "onlineValidate": 87.31,
+      "freeTickets": 41.94,
+      "scratchItValidate": 49.42,
+      "miscPayoutDayshift": 11.4,
+      "miscPayoutNightshift": 39.19,
+      "transferBank": 841.24,
+      "moneyGivenToPos": 229.28,
+      "videoValidate": 450.92,
+      "totalLottery": 716.81,
+      "overShort": -124.42,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 57.41,
+        "depositAmount": 57.41
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 64.52,
+        "depositAmount": 64.52
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 57.35,
+        "depositAmount": 57.35
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 133.42,
+        "depositAmount": 133.42
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 359.39,
+        "depositAmount": 359.39
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 239.66,
+        "depositAmount": 239.66
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 97.21,
+        "depositAmount": 97.21
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 126.61,
+        "depositAmount": 126.61
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 841.24,
+      "depositShouldHave": 3320.05,
+      "actuallyHaveBlackBag": 3337.3,
+      "totalCashDeposit": 1135.57
+    }
+  },
+  {
+    "id": "jan-0039",
+    "date": "2026-01-05",
+    "shiftType": "day",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2026-01-05T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2722.0,
+      "lotteryTillAdded": 269.96,
+      "totalPosSales": 1952.03,
+      "transferBankShouldHave": 2722.0,
+      "transferBankActuallyHave": 2728.48,
+      "overShort": 6.49,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 535.17,
+      "onlineSales": 146.33,
+      "extraMoneyAdded": 1.16,
+      "onlineValidate": 52.93,
+      "freeTickets": 20.74,
+      "scratchItValidate": 27.5,
+      "miscPayout": 27.12,
+      "transferBank": 863.98,
+      "moneyGivenToPos": 128.3,
+      "videoValidate": 535.17,
+      "totalLottery": 854.36,
+      "overShort": -9.62,
+      "comments": "Day shift completed"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 9.11,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 44.29,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 63.38,
+        "drawNumber": 6
+      }
+    ]
+  },
+  {
+    "id": "jan-0040",
+    "date": "2026-01-05",
+    "shiftType": "night",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2026-01-05T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3041.06,
+      "lotteryTillAdded": 283.89,
+      "totalPosSales": 2257.17,
+      "transferBankShouldHave": 3041.06,
+      "transferBankActuallyHave": 3029.22,
+      "overShort": -11.84,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 622.0,
+      "onlineSales": 182.62,
+      "extraMoneyAddedDayshift": 38.61,
+      "extraMoneyAddedNightshift": 1.77,
+      "onlineValidate": 88.93,
+      "freeTickets": 40.62,
+      "scratchItValidate": 30.85,
+      "miscPayoutDayshift": 21.14,
+      "miscPayoutNightshift": 38.69,
+      "transferBank": 884.22,
+      "moneyGivenToPos": 220.21,
+      "videoValidate": 622.0,
+      "totalLottery": 924.78,
+      "overShort": 40.56,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 79.06,
+        "depositAmount": 79.06
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 86.98,
+        "depositAmount": 86.98
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 119.64,
+        "depositAmount": 119.64
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 62.04,
+        "depositAmount": 62.04
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 294.44,
+        "depositAmount": 294.44
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 392.55,
+        "depositAmount": 392.55
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 128.25,
+        "depositAmount": 128.25
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 152.2,
+        "depositAmount": 152.2
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 884.22,
+      "depositShouldHave": 3041.06,
+      "actuallyHaveBlackBag": 3029.22,
+      "totalCashDeposit": 1315.16
+    }
+  },
+  {
+    "id": "jan-0041",
+    "date": "2026-01-10",
+    "shiftType": "day",
+    "employeeName": "John Smith",
+    "status": "submitted",
+    "submittedAt": "2026-01-10T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3488.97,
+      "lotteryTillAdded": 187.39,
+      "totalPosSales": 2801.58,
+      "transferBankShouldHave": 3488.97,
+      "transferBankActuallyHave": 3483.05,
+      "overShort": -5.93,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 457.46,
+      "onlineSales": 115.98,
+      "extraMoneyAdded": 5.41,
+      "onlineValidate": 61.43,
+      "freeTickets": 24.81,
+      "scratchItValidate": 32.73,
+      "miscPayout": 27.64,
+      "transferBank": 829.76,
+      "moneyGivenToPos": 146.61,
+      "videoValidate": 457.46,
+      "totalLottery": 732.24,
+      "overShort": -97.53,
+      "comments": "Day shift completed"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 59.88,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 56.34,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 26.42,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 71.21,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "jan-0042",
+    "date": "2026-01-10",
+    "shiftType": "night",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2026-01-10T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2957.2,
+      "lotteryTillAdded": 301.71,
+      "totalPosSales": 2155.5,
+      "transferBankShouldHave": 2957.2,
+      "transferBankActuallyHave": 2942.92,
+      "overShort": -14.28,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 696.47,
+      "onlineSales": 142.21,
+      "extraMoneyAddedDayshift": 27.28,
+      "extraMoneyAddedNightshift": 44.86,
+      "onlineValidate": 51.96,
+      "freeTickets": 28.23,
+      "scratchItValidate": 38.86,
+      "miscPayoutDayshift": 29.63,
+      "miscPayoutNightshift": 22.31,
+      "transferBank": 902.55,
+      "moneyGivenToPos": 170.98,
+      "videoValidate": 696.47,
+      "totalLottery": 1039.84,
+      "overShort": 137.29,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 53.8,
+        "depositAmount": 53.8
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 24.07,
+        "depositAmount": 24.07
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 122.0,
+        "depositAmount": 122.0
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 141.7,
+        "depositAmount": 141.7
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 307.97,
+        "depositAmount": 307.97
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 148.76,
+        "depositAmount": 148.76
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 163.31,
+        "depositAmount": 163.31
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 123.36,
+        "depositAmount": 123.36
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 902.55,
+      "depositShouldHave": 2957.2,
+      "actuallyHaveBlackBag": 2942.92,
+      "totalCashDeposit": 1084.97
+    }
+  },
+  {
+    "id": "jan-0043",
+    "date": "2026-01-15",
+    "shiftType": "day",
+    "employeeName": "Jessica Lee",
+    "status": "submitted",
+    "submittedAt": "2026-01-15T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3435.23,
+      "lotteryTillAdded": 234.67,
+      "totalPosSales": 2700.56,
+      "transferBankShouldHave": 3435.23,
+      "transferBankActuallyHave": 3427.6,
+      "overShort": -7.62,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 514.68,
+      "onlineSales": 178.3,
+      "extraMoneyAdded": 47.34,
+      "onlineValidate": 62.3,
+      "freeTickets": 29.86,
+      "scratchItValidate": 44.52,
+      "miscPayout": 18.01,
+      "transferBank": 848.59,
+      "moneyGivenToPos": 154.69,
+      "videoValidate": 514.68,
+      "totalLottery": 885.64,
+      "overShort": 37.05,
+      "comments": "Day shift completed"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 80.23,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 80.71,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 57.68,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 83.38,
+        "drawNumber": 7
+      }
+    ]
+  },
+  {
+    "id": "jan-0044",
+    "date": "2026-01-15",
+    "shiftType": "night",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2026-01-15T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2890.3,
+      "lotteryTillAdded": 302.75,
+      "totalPosSales": 2087.55,
+      "transferBankShouldHave": 2890.3,
+      "transferBankActuallyHave": 2897.47,
+      "overShort": 7.18,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 538.85,
+      "onlineSales": 141.87,
+      "extraMoneyAddedDayshift": 50.37,
+      "extraMoneyAddedNightshift": 11.82,
+      "onlineValidate": 83.95,
+      "freeTickets": 42.62,
+      "scratchItValidate": 37.36,
+      "miscPayoutDayshift": 34.46,
+      "miscPayoutNightshift": 32.53,
+      "transferBank": 852.38,
+      "moneyGivenToPos": 230.91,
+      "videoValidate": 538.85,
+      "totalLottery": 812.0,
+      "overShort": -40.39,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 51.25,
+        "depositAmount": 51.25
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 89.72,
+        "depositAmount": 89.72
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 71.52,
+        "depositAmount": 71.52
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 69.92,
+        "depositAmount": 69.92
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 122.13,
+        "depositAmount": 122.13
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 386.54,
+        "depositAmount": 386.54
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 197.35,
+        "depositAmount": 197.35
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 99.59,
+        "depositAmount": 99.59
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 852.38,
+      "depositShouldHave": 2890.3,
+      "actuallyHaveBlackBag": 2897.47,
+      "totalCashDeposit": 1088.02
+    }
+  },
+  {
+    "id": "jan-0045",
+    "date": "2026-01-20",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2026-01-20T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2948.37,
+      "lotteryTillAdded": 171.56,
+      "totalPosSales": 2276.82,
+      "transferBankShouldHave": 2948.37,
+      "transferBankActuallyHave": 2961.25,
+      "overShort": 12.87,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 647.27,
+      "onlineSales": 167.3,
+      "extraMoneyAdded": 39.42,
+      "onlineValidate": 58.72,
+      "freeTickets": 37.85,
+      "scratchItValidate": 30.08,
+      "miscPayout": 12.67,
+      "transferBank": 858.61,
+      "moneyGivenToPos": 139.32,
+      "videoValidate": 647.27,
+      "totalLottery": 1014.67,
+      "overShort": 156.07,
+      "comments": "Day shift completed"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 87.62,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 59.25,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 85.09,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 49.53,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 69.04,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 27.13,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "jan-0046",
+    "date": "2026-01-20",
+    "shiftType": "night",
+    "employeeName": "Mike Davis",
+    "status": "submitted",
+    "submittedAt": "2026-01-20T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3450.57,
+      "lotteryTillAdded": 233.37,
+      "totalPosSales": 2717.2,
+      "transferBankShouldHave": 3450.57,
+      "transferBankActuallyHave": 3452.05,
+      "overShort": 1.48,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 655.19,
+      "onlineSales": 127.81,
+      "extraMoneyAddedDayshift": 30.94,
+      "extraMoneyAddedNightshift": 27.83,
+      "onlineValidate": 81.78,
+      "freeTickets": 32.65,
+      "scratchItValidate": 45.84,
+      "miscPayoutDayshift": 21.23,
+      "miscPayoutNightshift": 21.69,
+      "transferBank": 854.82,
+      "moneyGivenToPos": 203.19,
+      "videoValidate": 655.19,
+      "totalLottery": 938.58,
+      "overShort": 83.75,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 125.36,
+        "depositAmount": 125.36
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 110.63,
+        "depositAmount": 110.63
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 131.06,
+        "depositAmount": 131.06
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 141.6,
+        "depositAmount": 141.6
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 230.09,
+        "depositAmount": 230.09
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 393.94,
+        "depositAmount": 393.94
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 121.08,
+        "depositAmount": 121.08
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 89.95,
+        "depositAmount": 89.95
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 854.82,
+      "depositShouldHave": 3450.57,
+      "actuallyHaveBlackBag": 3452.05,
+      "totalCashDeposit": 1343.71
+    }
+  },
+  {
+    "id": "jan-0047",
+    "date": "2026-01-25",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2026-01-25T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3445.56,
+      "lotteryTillAdded": 207.51,
+      "totalPosSales": 2738.05,
+      "transferBankShouldHave": 3445.56,
+      "transferBankActuallyHave": 3452.83,
+      "overShort": 7.27,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 594.56,
+      "onlineSales": 161.68,
+      "extraMoneyAdded": 26.08,
+      "onlineValidate": 73.03,
+      "freeTickets": 37.99,
+      "scratchItValidate": 34.21,
+      "miscPayout": 29.99,
+      "transferBank": 619.29,
+      "moneyGivenToPos": 175.22,
+      "videoValidate": 594.56,
+      "totalLottery": 907.1,
+      "overShort": 287.8,
+      "comments": "Day shift completed"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 44.99,
+        "drawNumber": 1
+      },
+      {
+        "drawAmount": 51.03,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 71.21,
+        "drawNumber": 3
+      },
+      {
+        "drawAmount": 87.87,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 89.46,
+        "drawNumber": 5
+      },
+      {
+        "drawAmount": 37.01,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 27.61,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 41.46,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "jan-0048",
+    "date": "2026-01-25",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2026-01-25T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3222.99,
+      "lotteryTillAdded": 188.89,
+      "totalPosSales": 2534.1,
+      "transferBankShouldHave": 3222.99,
+      "transferBankActuallyHave": 3211.81,
+      "overShort": -11.18,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 588.57,
+      "onlineSales": 208.73,
+      "extraMoneyAddedDayshift": 16.81,
+      "extraMoneyAddedNightshift": 18.24,
+      "onlineValidate": 64.48,
+      "freeTickets": 31.63,
+      "scratchItValidate": 40.17,
+      "miscPayoutDayshift": 33.76,
+      "miscPayoutNightshift": 30.58,
+      "transferBank": 757.4,
+      "moneyGivenToPos": 200.62,
+      "videoValidate": 588.57,
+      "totalLottery": 931.73,
+      "overShort": 174.33,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 119.83,
+        "depositAmount": 119.83
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 67.43,
+        "depositAmount": 67.43
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 94.46,
+        "depositAmount": 94.46
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 75.11,
+        "depositAmount": 75.11
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 334.17,
+        "depositAmount": 334.17
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 101.21,
+        "depositAmount": 101.21
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 88.95,
+        "depositAmount": 88.95
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 165.57,
+        "depositAmount": 165.57
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 757.4,
+      "depositShouldHave": 3222.99,
+      "actuallyHaveBlackBag": 3211.81,
+      "totalCashDeposit": 1046.73
+    }
+  },
+  {
+    "id": "jan-0049",
+    "date": "2026-01-28",
+    "shiftType": "day",
+    "employeeName": "Sarah Johnson",
+    "status": "submitted",
+    "submittedAt": "2026-01-28T14:30:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 2593.2,
+      "lotteryTillAdded": 257.18,
+      "totalPosSales": 1836.01,
+      "transferBankShouldHave": 2593.2,
+      "transferBankActuallyHave": 2583.22,
+      "overShort": -9.98,
+      "comments": "Day shift completed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 542.96,
+      "onlineSales": 154.47,
+      "extraMoneyAdded": 24.92,
+      "onlineValidate": 52.34,
+      "freeTickets": 34.28,
+      "scratchItValidate": 48.07,
+      "miscPayout": 21.98,
+      "transferBank": 815.67,
+      "moneyGivenToPos": 156.67,
+      "videoValidate": 542.96,
+      "totalLottery": 865.68,
+      "overShort": 50.01,
+      "comments": "Day shift completed"
+    },
+    "lotteryDraws": [
+      {
+        "drawAmount": 0.24,
+        "drawNumber": 2
+      },
+      {
+        "drawAmount": 2.08,
+        "drawNumber": 4
+      },
+      {
+        "drawAmount": 61.27,
+        "drawNumber": 6
+      },
+      {
+        "drawAmount": 18.27,
+        "drawNumber": 7
+      },
+      {
+        "drawAmount": 87.78,
+        "drawNumber": 8
+      }
+    ]
+  },
+  {
+    "id": "jan-0050",
+    "date": "2026-01-28",
+    "shiftType": "night",
+    "employeeName": "Chris Brown",
+    "status": "submitted",
+    "submittedAt": "2026-01-28T23:45:00.000Z",
+    "posShiftData": {
+      "amStartTill": 500.0,
+      "expectedDeposit": 3207.14,
+      "lotteryTillAdded": 193.62,
+      "totalPosSales": 2513.52,
+      "transferBankShouldHave": 3207.14,
+      "transferBankActuallyHave": 3208.48,
+      "overShort": 1.34,
+      "comments": "Night shift closed"
+    },
+    "lotteryShiftData": {
+      "amStartTill": 300.0,
+      "videoCashIn": 609.0,
+      "onlineSales": 122.16,
+      "extraMoneyAddedDayshift": 39.44,
+      "extraMoneyAddedNightshift": 5.38,
+      "onlineValidate": 69.68,
+      "freeTickets": 37.64,
+      "scratchItValidate": 36.26,
+      "miscPayoutDayshift": 24.33,
+      "miscPayoutNightshift": 34.37,
+      "transferBank": 937.03,
+      "moneyGivenToPos": 202.27,
+      "videoValidate": 609.0,
+      "totalLottery": 873.72,
+      "overShort": -63.3,
+      "comments": "Night shift completed"
+    },
+    "transferBankDeposits": [
+      {
+        "denominationType": "coin",
+        "transferBankAmount": 67.36,
+        "depositAmount": 67.36
+      },
+      {
+        "denominationType": "1",
+        "transferBankAmount": 141.13,
+        "depositAmount": 141.13
+      },
+      {
+        "denominationType": "2",
+        "transferBankAmount": 45.6,
+        "depositAmount": 45.6
+      },
+      {
+        "denominationType": "5",
+        "transferBankAmount": 54.21,
+        "depositAmount": 54.21
+      },
+      {
+        "denominationType": "10",
+        "transferBankAmount": 194.74,
+        "depositAmount": 194.74
+      },
+      {
+        "denominationType": "20",
+        "transferBankAmount": 205.59,
+        "depositAmount": 205.59
+      },
+      {
+        "denominationType": "50",
+        "transferBankAmount": 11.68,
+        "depositAmount": 11.68
+      },
+      {
+        "denominationType": "100",
+        "transferBankAmount": 70.87,
+        "depositAmount": 70.87
+      }
+    ],
+    "transferBankDetails": {
+      "transferBankBlueBag": 937.03,
+      "depositShouldHave": 3207.14,
+      "actuallyHaveBlackBag": 3208.48,
+      "totalCashDeposit": 791.18
+    }
+  }
+]

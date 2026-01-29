@@ -1,0 +1,205 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  employee
+  manager
+  admin
+}
+
+enum ShiftType {
+  day
+  night
+}
+
+enum ReportStatus {
+  draft
+  submitted
+  approved
+}
+
+enum DenominationType {
+  coin
+  one
+  five
+  ten
+  twenty
+  fifty
+  hundred
+}
+
+model User {
+  id          String   @id @default(uuid())
+  email       String   @unique
+  passwordHash String  @map("password_hash")
+  role        UserRole @default(employee)
+  name        String
+  employeeId  String?  @unique @map("employee_id")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  shiftReports    DailyShiftReport[]
+  employeeTotals  EmployeeTotal[]
+
+  @@map("users")
+}
+
+model Location {
+  id        String   @id @default(uuid())
+  name      String
+  address   String?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  shiftReports   DailyShiftReport[]
+  employeeTotals EmployeeTotal[]
+  aggregates     DailyAggregate[]
+
+  @@map("locations")
+}
+
+model DailyShiftReport {
+  id          String       @id @default(uuid())
+  date        DateTime     @db.Date
+  locationId  String?      @map("location_id")
+  shiftType   ShiftType    @map("shift_type")
+  employeeName String      @map("employee_name")
+  submittedBy String       @map("submitted_by")
+  submittedAt DateTime?    @map("submitted_at")
+  status      ReportStatus @default(draft)
+  createdAt   DateTime     @default(now()) @map("created_at")
+  updatedAt   DateTime     @updatedAt @map("updated_at")
+
+  // Relations
+  location          Location?            @relation(fields: [locationId], references: [id])
+  submittedByUser   User                @relation(fields: [submittedBy], references: [id])
+  posShiftData      PosShiftData?
+  lotteryShiftData  LotteryShiftData?
+  lotteryDraws      LotteryDraw[]
+  transferDeposits  TransferBankDeposit[]
+
+  @@unique([date, shiftType, employeeName])
+  @@index([date])
+  @@index([submittedBy])
+  @@map("daily_shift_reports")
+}
+
+model PosShiftData {
+  id                        String   @id @default(uuid())
+  shiftReportId             String   @unique @map("shift_report_id")
+  amStartTill               Decimal  @map("am_start_till") @db.Decimal(10, 2)
+  expectedDeposit           Decimal  @map("expected_deposit") @db.Decimal(10, 2)
+  lotteryTillAdded          Decimal  @map("lottery_till_added") @db.Decimal(10, 2)
+  totalPosSales             Decimal? @map("total_pos_sales") @db.Decimal(10, 2)
+  transferBankShouldHave    Decimal? @map("transfer_bank_should_have") @db.Decimal(10, 2)
+  transferBankActuallyHave  Decimal  @map("transfer_bank_actually_have") @db.Decimal(10, 2)
+  overShort                 Decimal? @map("over_short") @db.Decimal(10, 2)
+  comments                  String?  @db.Text
+
+  // Relations
+  shiftReport DailyShiftReport @relation(fields: [shiftReportId], references: [id], onDelete: Cascade)
+
+  @@map("pos_shift_data")
+}
+
+model LotteryShiftData {
+  id                        String   @id @default(uuid())
+  shiftReportId             String   @unique @map("shift_report_id")
+  amStartTill               Decimal  @map("am_start_till") @db.Decimal(10, 2)
+  videoCashIn               Decimal  @map("video_cash_in") @db.Decimal(10, 2)
+  onlineSales               Decimal  @map("online_sales") @db.Decimal(10, 2)
+  extraMoneyAdded           Decimal? @map("extra_money_added") @db.Decimal(10, 2)
+  extraMoneyAddedDayshift   Decimal? @map("extra_money_added_dayshift") @db.Decimal(10, 2)
+  extraMoneyAddedNightshift Decimal? @map("extra_money_added_nightshift") @db.Decimal(10, 2)
+  onlineValidate            Decimal  @map("online_validate") @db.Decimal(10, 2)
+  freeTickets               Decimal  @map("free_tickets") @db.Decimal(10, 2)
+  scratchItValidate         Decimal  @map("scratch_it_validate") @db.Decimal(10, 2)
+  miscPayout                Decimal  @map("misc_payout") @db.Decimal(10, 2)
+  miscPayoutDayshift        Decimal? @map("misc_payout_dayshift") @db.Decimal(10, 2)
+  miscPayoutNightshift      Decimal? @map("misc_payout_nightshift") @db.Decimal(10, 2)
+  moneyGivenToPos           Decimal? @map("money_given_to_pos") @db.Decimal(10, 2)
+  videoValidate             Decimal? @map("video_validate") @db.Decimal(10, 2)
+  totalLottery              Decimal? @map("total_lottery") @db.Decimal(10, 2)
+  transferBank              Decimal  @map("transfer_bank") @db.Decimal(10, 2)
+  overShort                 Decimal? @map("over_short") @db.Decimal(10, 2)
+  comments                  String?  @db.Text
+
+  // Relations
+  shiftReport DailyShiftReport @relation(fields: [shiftReportId], references: [id], onDelete: Cascade)
+
+  @@map("lottery_shift_data")
+}
+
+model LotteryDraw {
+  id          String   @id @default(uuid())
+  shiftReportId String @map("shift_report_id")
+  drawAmount  Decimal  @map("draw_amount") @db.Decimal(10, 2)
+  drawNumber  Int      @map("draw_number")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  shiftReport DailyShiftReport @relation(fields: [shiftReportId], references: [id], onDelete: Cascade)
+
+  @@index([shiftReportId])
+  @@map("lottery_draws")
+}
+
+model TransferBankDeposit {
+  id              String           @id @default(uuid())
+  shiftReportId   String           @map("shift_report_id")
+  denominationType DenominationType @map("denomination_type")
+  transferBankAmount Decimal       @map("transfer_bank_amount") @db.Decimal(10, 2)
+  depositAmount   Decimal          @map("deposit_amount") @db.Decimal(10, 2)
+
+  // Relations
+  shiftReport DailyShiftReport @relation(fields: [shiftReportId], references: [id], onDelete: Cascade)
+
+  @@index([shiftReportId])
+  @@map("transfer_bank_deposits")
+}
+
+model EmployeeTotal {
+  id           String    @id @default(uuid())
+  employeeId   String    @map("employee_id")
+  locationId   String?   @map("location_id")
+  totalShortage Decimal  @default(0) @map("total_shortage") @db.Decimal(10, 2)
+  totalOverage  Decimal  @default(0) @map("total_overage") @db.Decimal(10, 2)
+  lastUpdated   DateTime @default(now()) @updatedAt @map("last_updated")
+
+  // Relations
+  employee User      @relation(fields: [employeeId], references: [id])
+  location Location? @relation(fields: [locationId], references: [id])
+
+  @@unique([employeeId, locationId])
+  @@index([employeeId])
+  @@map("employee_totals")
+}
+
+model DailyAggregate {
+  id                String    @id @default(uuid())
+  date              DateTime  @db.Date
+  locationId        String?   @map("location_id")
+  totalVideoCashIn  Decimal   @default(0) @map("total_video_cash_in") @db.Decimal(10, 2)
+  totalPosDeposit   Decimal   @default(0) @map("total_pos_deposit") @db.Decimal(10, 2)
+  totalLotteryDeposit Decimal @default(0) @map("total_lottery_deposit") @db.Decimal(10, 2)
+  createdAt         DateTime  @default(now()) @map("created_at")
+  updatedAt         DateTime  @updatedAt @map("updated_at")
+
+  // Relations
+  location Location? @relation(fields: [locationId], references: [id])
+
+  @@unique([date, locationId])
+  @@index([date])
+  @@map("daily_aggregates")
+}
