@@ -21,6 +21,9 @@ export async function calculateDailyAggregates(
   const endOfDay = new Date(date);
   endOfDay.setHours(23, 59, 59, 999);
 
+  // Normalize locationId once at the start
+  const normalizedLocationId: string | null = locationId ? locationId : null;
+
   // Get all submitted shift reports for the date
   const shiftReports = await prisma.dailyShiftReport.findMany({
     where: {
@@ -29,7 +32,7 @@ export async function calculateDailyAggregates(
         lte: endOfDay,
       },
       status: 'submitted',
-      locationId: locationId || null,
+      locationId: normalizedLocationId,
     },
     include: {
       lotteryShiftData: true,
@@ -55,17 +58,16 @@ export async function calculateDailyAggregates(
   }
 
   // Upsert daily aggregate
-  const locId = locationId || null;
   await prisma.dailyAggregate.upsert({
     where: {
       date_locationId: {
         date: startOfDay,
-        locationId: locId,
+        locationId: normalizedLocationId as any, // Type assertion for nullable unique constraint
       },
     },
     create: {
       date: startOfDay,
-      locationId: locId,
+      locationId: normalizedLocationId as any,
       totalVideoCashIn,
       totalPosDeposit,
       totalLotteryDeposit,
@@ -94,12 +96,12 @@ export async function getDailyAggregates(
   const startOfDay = new Date(date);
   startOfDay.setHours(0, 0, 0, 0);
 
-  const locId = locationId || null;
+  const normalizedLocationId: string | null = locationId ? locationId : null;
   const aggregate = await prisma.dailyAggregate.findUnique({
     where: {
       date_locationId: {
         date: startOfDay,
-        locationId: locId,
+        locationId: normalizedLocationId as any,
       },
     },
   });
@@ -127,13 +129,14 @@ export async function getMonthlyAggregates(
   const startDate = new Date(year, month - 1, 1);
   const endDate = new Date(year, month, 0);
 
+  const normalizedLocationId: string | null = locationId ? locationId : null;
   const aggregates = await prisma.dailyAggregate.findMany({
     where: {
       date: {
         gte: startDate,
         lte: endDate,
       },
-      locationId: locationId || null,
+      locationId: normalizedLocationId,
     },
   });
 
